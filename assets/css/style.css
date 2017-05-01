@@ -101,7 +101,7 @@ hr {
     border-top: 3px solid #dddddd;
 }
 
-.contact-info-content-divider {
+.connect-info-content-divider {
     border-top: 2px solid #eeeeee;
 }
 
@@ -117,7 +117,7 @@ hr {
     line-height: 1.2em;
 }
 
-#contact-info {
+#connect-info {
     float: right;
     width: 228px;
     margin-left: 20px;
@@ -136,7 +136,7 @@ hr {
     text-align: center;
 }
 
-.contact-info-icon {
+.connect-info-icon {
     width: 60px;
     height: 60px;
     margin: 0px 6px;
@@ -225,7 +225,7 @@ footer > p {
     #bio-image {
         width: 50%;
     }
-    #contact-info {
+    #connect-info {
         float: right;
     }
     .portfolio-image {
@@ -255,7 +255,7 @@ footer > p {
         display: block;
         margin: 0 auto 10px;
     }
-    #contact-info {
+    #connect-info {
         float: none;
         width: 85%;
         margin-left: auto;
