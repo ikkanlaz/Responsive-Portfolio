@@ -12,21 +12,22 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="index.html">
-                <h1 class="profile-name">Bud Lazenby</h1>
-            </a>
-            <ul class="navbar-links">
-                <li><a href="index.html">About</a></li>
-                <div class="link-divider">|</div>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <div class="link-divider">|</div>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <div id="navbar-container">
+                <h1 class="profile-name"><a href="index.html">Bud Lazenby</a></h1>
+                <ul class="navbar-links">
+                    <li><a href="index.html">About</a></li>
+                    <div class="link-divider">|</div>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <div class="link-divider">|</div>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div id="container">
         <form class="main-content">
             <h2 class="section-header">Contact</h2>
+            <hr class="main-content-content-divider">
             <label for="name">Name</label>
             <input class="contact-input" type="text" placeholder="John Smith">
             <label for="email">Email</label>
@@ -37,6 +38,7 @@
         </form>
         <aside id="contact-info">
             <h3 class="connect-header">Connect with Me</h3>
+            <hr class="contact-info-content-divider">
             <ul class="social-logos">
                 <li>
                     <a href="https://github.com/ikkanlaz"><img class="contact-info-icon" src="assets/images/github-icon.png" alt="Github Logo"></a>
