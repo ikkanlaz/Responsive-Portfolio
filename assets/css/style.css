@@ -90,6 +90,7 @@ h3 {
     padding: 20px;
     background-color: #FFFFFF;
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 hr {
@@ -319,8 +320,8 @@ footer > p {
         width: 100%;
     }
     .image-text {
-    position: absolute;
-    top: 70%;
-    padding: 15px 0;
+        position: absolute;
+        top: 70%;
+        padding: 15px 0;
     }
 }
