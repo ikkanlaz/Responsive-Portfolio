@@ -171,15 +171,11 @@ textarea {
     padding: 0px;
 }
 
-.portfolio-image {
+.image-container {
     float: left;
     position: relative;
     width: 50%;
-}
-
-.image-container {
     display: block;
-    clear: both;
     height: auto;
     padding: 0;
 }
@@ -200,12 +196,10 @@ textarea {
 
 footer {
     clear: both;
-    position: fixed;
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
     height: 60px;
     width: 100%;
-    bottom: 0px;
 }
 
 footer > p {
@@ -229,7 +223,7 @@ footer > p {
     #connect-info {
         float: right;
     }
-    .portfolio-image {
+    .image-container {
         float: none;
         display: block;
         margin: 0 auto;
@@ -269,7 +263,7 @@ footer > p {
         clear: both;
         float: none;
     }
-    .portfolio-image {
+    .image-container {
         float: left;
         width: 50%;
         margin: 0;
@@ -302,7 +296,7 @@ footer > p {
         border-bottom: 1px solid #dddddd;
     }
     .navbar-links > li {
-        padding: 0 8%;
+        padding: 0 5%;
     }
     .main-content {
         margin-top: 60px;
@@ -310,7 +304,7 @@ footer > p {
     #bio-image {
         width: 70%;
     }
-    .portfolio-image {
+    .image-container {
         float: none;
         display: block;
         margin: 0 auto;
